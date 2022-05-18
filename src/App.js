@@ -5,12 +5,15 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Productentry from './Component/Productentry';
 import Productview from './Component/Productview';
 
-
+import Poductsearch from './Component/Poductsearch';
 
 function App() {
   return (
     <>
     <Productview/>
+
+    <Poductsearch/>
+
     </>
   );
 }
