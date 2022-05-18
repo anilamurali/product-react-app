@@ -9,7 +9,7 @@ const Productview = () => {
             <div class="row g-3">
                 {
                     productlist.map((value,key)=>{
-                        return <div class='col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-12'>
+                        return <div class='col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4'>
                             <div class='card'>
                                 <img src={value.image} class="card-image-top" alt=" " />
                                 <div class="card-body">
