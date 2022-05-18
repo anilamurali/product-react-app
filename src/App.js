@@ -11,18 +11,16 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <>
-navbar
+
     <BrowserRouter>
     <Routes>
       <Route path='/' exact element={<Productentry/>}/>
-      <Routea path='search' exact element={<Poductsearch/>}/>
-      <Route path='view' exact element={<Productview/>}/>
+      <Route path='/search' exact element={<Poductsearch/>}/>
+      <Route path='/view' exact element={<Productview/>}/>
     </Routes>
     </BrowserRouter>
-    <Productview/>
+    
 
-    <Poductsearch/>
-Development
 
     </>
   );
